@@ -19,32 +19,36 @@
         body {
             font-family: "Manrope", sans-serif;
         }
+        
+        .bg-custom-green {
+            background: rgba(171, 239, 95, 0.5);
+        }
     </style>
 </head>
 
 <body>
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto  bg-cover bg-center bg-no-repeat " style="background-image: url(./assets/bg.jpg);">
         <!-- Nav Bar Section -->
-        <div class="navbar bg-base-100 shadow-sm lg:justify-between">
+        <div class="navbar lg:justify-between py-2 lg:py-4 mb-5 ">
             <!-- Mobile Layout -->
-            <div class="w-full flex items-center justify-between md:hidden">
+            <div class="w-full flex items-center justify-between md:hidden ">
                 <!-- Logo on the Left -->
-                <div class="flex items-center gap-2">
-                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <div class="flex items-center gap-2 ">
+                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+            <path stroke-linecap="round " stroke-linejoin="round "
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
           </svg>
                     </div>
-                    <h1 class="text-3xl text-neutral-900 font-extrabold">Rinterio</h1>
+                    <h1 class="text-3xl text-neutral-900 font-extrabold ">Rinterio</h1>
                 </div>
 
                 <!-- Burger menu on the Right -->
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="p-4 flex items-center justify-center bg-gray-200 rounded-full">
-                        <i class="fa-solid fa-bars text-red-600 text-3xl"></i>
+                <div class="dropdown ">
+                    <div tabindex="0 " role="button " class="p-4 flex items-center justify-center bg-gray-200 rounded-full ">
+                        <i class="fa-solid fa-bars text-red-600 text-3xl "></i>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-neutral-500">
+                    <ul tabindex="0 " class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-neutral-500 ">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
@@ -54,52 +58,53 @@
                 </div>
             </div>
             <!-- Medium Device Tablet Layout  -->
-            <div class="hidden md:flex md:items-center md:justify-between w-full lg:hidden">
+            <div class="hidden md:flex md:items-center md:justify-between w-full lg:hidden ">
                 <!-- Logo on the Left -->
-                <div class="md:flex items-center gap-2">
-                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <div class="md:flex items-center gap-2 ">
+                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+            <path stroke-linecap="round " stroke-linejoin="round "
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
           </svg>
                     </div>
-                    <h1 class="text-3xl text-neutral-900 font-extrabold">Rinterio</h1>
+                    <h1 class="text-3xl text-neutral-900 font-extrabold ">Rinterio</h1>
                 </div>
                 <!-- Right Icons and Button -->
-                <div class="">
-                    <div class="flex items-center justify-center gap-3">
+                <div class=" ">
+                    <div class="flex items-center justify-center gap-3 ">
                         <!-- Search Icon -->
-                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+              <path stroke-linecap="round " stroke-linejoin="round "
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z " />
             </svg>
                         </div>
                         <!-- Cart Icon -->
-                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+              <path stroke-linecap="round " stroke-linejoin="round "
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+        0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z " />
             </svg>
                         </div>
                         <!-- Book Consult Button -->
-                        <div class="flex items-center justify-center gap-2 bg-lime-300 p-3 rounded-full">
-                            <h3 class="text-xl text-neutral-900 font-extrabold">Book Consult</h3>
-                            <div class="bg-neutral-900 text-white rounded-full flex items-center justify-center p-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        <div class="flex items-center justify-center gap-2 bg-lime-300 p-3 rounded-full ">
+                            <h3 class="text-xl text-neutral-900 font-extrabold ">Book Consult</h3>
+                            <div class="bg-neutral-900 text-white rounded-full flex items-center justify-center p-1 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+                <path stroke-linecap="round " stroke-linejoin="round "
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
               </svg>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Burger menu on the Right -->
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="p-4 flex items-center justify-center bg-gray-200 rounded-full">
-                        <i class="fa-solid fa-bars text-red-600 text-3xl"></i>
+                <div class="dropdown ">
+                    <div tabindex="0 " role="button " class="p-4 flex items-center justify-center bg-gray-200 rounded-full ">
+                        <i class="fa-solid fa-bars text-red-600 text-3xl "></i>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-neutral-500">
+                    <ul tabindex="0 " class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-neutral-500 ">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
@@ -109,21 +114,21 @@
                 </div>
             </div>
             <!-- Large Screen Layout -->
-            <div class="hidden lg:flex lg:items-center lg:justify-between w-full">
+            <div class="hidden lg:flex lg:items-center lg:justify-between w-full ">
                 <!-- Left: Logo and Name -->
-                <div class="flex items-center gap-2">
-                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <div class="flex items-center gap-2 ">
+                    <div class="bg-lime-300 rounded-full flex items-center justify-center p-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+            <path stroke-linecap="round " stroke-linejoin="round "
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
           </svg>
                     </div>
-                    <h1 class="text-3xl text-neutral-900 font-extrabold">Rinterio</h1>
+                    <h1 class="text-3xl text-neutral-900 font-extrabold ">Rinterio</h1>
                 </div>
 
                 <!-- Center Menu -->
-                <div class="">
-                    <ul class="menu menu-horizontal px-1 text-neutral-500">
+                <div class=" ">
+                    <ul class="menu menu-horizontal px-1 text-neutral-500 ">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
@@ -133,29 +138,30 @@
                 </div>
 
                 <!-- Right Icons and Button -->
-                <div class="">
-                    <div class="flex items-center justify-center gap-3">
+                <div class=" ">
+                    <div class="flex items-center justify-center gap-4 ">
                         <!-- Search Icon -->
-                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+              <path stroke-linecap="round " stroke-linejoin="round "
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z " />
             </svg>
                         </div>
                         <!-- Cart Icon -->
-                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        <div class="bg-white border border-neutral-200 rounded-full flex items-center justify-center p-2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+              <path stroke-linecap="round " stroke-linejoin="round "
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75
+        0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z " />
             </svg>
                         </div>
                         <!-- Book Consult Button -->
-                        <div class="flex items-center justify-center gap-2 bg-lime-300 p-3 rounded-full">
-                            <h3 class="text-xl text-neutral-900 font-extrabold">Book Consult</h3>
-                            <div class="bg-neutral-900 text-white rounded-full flex items-center justify-center p-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        <div class="flex items-center justify-center gap-2 bg-lime-300 p-3 rounded-full ">
+                            <h3 class="text-xl text-neutral-900 font-extrabold ">Book Consult</h3>
+                            <div class="bg-neutral-900 text-white rounded-full flex items-center justify-center p-1 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+                <path stroke-linecap="round " stroke-linejoin="round "
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
               </svg>
                             </div>
                         </div>
@@ -163,10 +169,51 @@
                 </div>
             </div>
         </div>
+
+        <!-- Hero Section  -->
+        <section class="py-2 lg:py-4 mb-5">
+            <div class="flex flex-col items-center justify-between gap-2 ">
+                <!-- Image Div  -->
+                <div class=" ">
+                    <img src="./assets/banner.png " alt=" ">
+                </div>
+                <!-- Details Div  -->
+                <div class="text-center space-y-4 ">
+                    <h1 class="text-neutral-900 text-6xl font-extrabold ">A barn house of this design has a <br> striking appearance</h1>
+                    <p class="text-neutral-700 text-lg font-semibold ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                    <!-- Book Consult Button -->
+                    <div class="w-full md:w-fit mx-0 md:mx-auto flex items-center justify-center gap-2 bg-custom-green p-3 rounded-full ">
+                        <h3 class="text-xl text-neutral-900 font-extrabold ">View Details</h3>
+                        <div class="bg-lime-300 text-white rounded-full flex items-center justify-center p-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="size-6 ">
+                <path stroke-linecap="round " stroke-linejoin="round "
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25 " />
+              </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </header>
 
     <main></main>
     <footer></footer>
 </body>
+<div class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ducimus obcaecati dolorum quae rerum dicta accusantium debitis delectus, numquam suscipit unde, omnis atque odit necessitatibus illo! Nisi et error beatae esse odit? Similique cupiditate
+    et, dolore nesciunt magnam delectus expedita. Dolorem sed sint iste alias voluptas cum fugit maxime consectetur, molestiae facilis veritatis accusamus, exercitationem pariatur corrupti quod, labore eveniet quia quibusdam error saepe architecto eum!
+    Maiores vel, delectus temporibus molestiae atque alias neque quibusdam corporis iusto quos quidem, ipsa earum architecto. Sunt assumenda, alias cupiditate, distinctio deserunt eveniet magni voluptatibus sint eaque, veritatis ipsum? Ipsum, quis sed
+    a provident maxime optio cupiditate consectetur eius eum culpa itaque ratione sunt unde quo ex animi, quos soluta odit. Veritatis, quasi! Distinctio nisi mollitia architecto sed illo. Ex veritatis quia ipsa dolor corrupti blanditiis architecto in
+    quod, voluptatem, accusamus exercitationem repellat dolore adipisci possimus, suscipit eveniet magnam aspernatur earum vel? Eligendi vel nemo nihil corrupti similique iure quos quod quaerat ullam veniam exercitationem nesciunt ad sint, sit explicabo
+    magni culpa voluptatum dolorem enim. Ut numquam, dicta vitae suscipit sapiente iusto officiis magnam autem deleniti, nesciunt quaerat. Enim quam eius suscipit nisi aliquid commodi cupiditate quaerat alias, id consequuntur maxime ipsa harum dolorem!
+    Rerum quam doloremque a inventore est? Rem officiis eaque quo iusto est exercitationem vel, aspernatur provident velit deserunt, pariatur ullam. Amet porro nihil nisi veritatis consequatur, dicta aspernatur similique laudantium quasi. Quos, iste modi
+    repellendus ad ea, blanditiis dolores culpa illum quia neque a consequatur beatae sapiente. Voluptate debitis autem sed aut dicta blanditiis modi ipsum saepe quisquam suscipit fuga placeat, quibusdam doloribus rerum error cum earum delectus a! Assumenda
+    consectetur iste ullam odio reiciendis dolores molestiae quo porro explicabo magnam est perferendis laudantium, obcaecati expedita hic similique commodi doloribus quod distinctio. Fuga cum iusto numquam rerum, ea, placeat ipsum sed ullam minus, cumque
+    recusandae. Accusantium a illum nemo deserunt! Autem rerum exercitationem quaerat nam incidunt dolor laboriosam alias expedita sapiente veritatis pariatur, id debitis obcaecati aliquid. Accusamus, eius ullam, ut in rerum animi at sed, recusandae error
+    aspernatur minima corrupti nisi alias. Facere maxime sint commodi cumque nam provident quos quidem maiores aperiam architecto deserunt qui, placeat temporibus ullam! Necessitatibus non impedit eaque ducimus sed omnis dolore, dolor odio corrupti deleniti
+    quia, nesciunt nobis enim repellat ratione voluptatum? Labore animi nam veritatis quis eius ullam repellendus soluta eos earum incidunt officia rerum natus iste, ratione maxime nisi dolorum asperiores tempore accusantium modi voluptate doloremque
+    at cupiditate. Rem itaque odit iure, expedita facere blanditiis quia, distinctio, dolorem tempore repellat rerum possimus temporibus. Ipsum nobis, dolor, veritatis sit aliquam est dolores beatae enim esse debitis accusantium ut velit molestiae? Quasi
+    ea cum placeat cumque quis veniam repellat ullam iure fugiat in. Facere dolores, eum illum optio veritatis voluptatibus officia, eligendi aspernatur voluptates aliquid omnis fugiat dolore quisquam! Cupiditate libero soluta consequuntur, quasi temporibus
+    ea quisquam, expedita dolorum doloremque corporis quo aut exercitationem necessitatibus perferendis itaque? Assumenda ratione minus reiciendis tenetur! Praesentium vero a consectetur! Voluptates qui delectus necessitatibus, alias aliquam officiis!</div>
 
 </html>
