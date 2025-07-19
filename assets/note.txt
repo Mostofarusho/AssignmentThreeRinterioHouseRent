@@ -1,0 +1,8 @@
+Image1 Commercial
+2,5
+Image4 Commercial
+3,5
+
+<div class="w-full aspect-square">
+                                <img class="w-full h-full object-cover rounded-xl" src="./assets/img5.png" alt="">
+                            </div>
